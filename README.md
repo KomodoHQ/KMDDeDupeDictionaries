@@ -4,6 +4,12 @@
 [![License](https://img.shields.io/cocoapods/l/KMDDeDupeDictionaries.svg?style=flat)](http://cocoapods.org/pods/KMDDeDupeDictionaries)
 [![Platform](https://img.shields.io/cocoapods/p/KMDDeDupeDictionaries.svg?style=flat)](http://cocoapods.org/pods/KMDDeDupeDictionaries)
 
+## Description
+
+KMDDeDupeDictionaries is an iOS Library to track if dictionaries are duplicated within a given timeout period. This can be useful for example in discarding duplicate remote notifications by examining the dictionaries sent from the server.
+
+This libary supports overriding the default storage type (PList) with custom storage such as SQLLite or NSUserDefaults. Simply conform to KMDDDStorageType and set StorageType to be custom on the manager.
+
 ## Usage
 
 1. Pod install.
