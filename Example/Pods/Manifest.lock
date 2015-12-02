@@ -1,0 +1,17 @@
+PODS:
+  - Kiwi (2.4.0)
+  - KMDDeDupeDictionaries (0.1.0)
+
+DEPENDENCIES:
+  - Kiwi
+  - KMDDeDupeDictionaries (from `../`)
+
+EXTERNAL SOURCES:
+  KMDDeDupeDictionaries:
+    :path: ../
+
+SPEC CHECKSUMS:
+  Kiwi: f49c9d54b28917df5928fe44968a39ed198cb8a8
+  KMDDeDupeDictionaries: e08e648afdb984df0de9d297c3a16f53f1ded4d3
+
+COCOAPODS: 0.38.2

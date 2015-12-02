@@ -1,0 +1,6 @@
+framework module KMDDeDupeDictionaries {
+  umbrella header "KMDDeDupeDictionaries-umbrella.h"
+
+  export *
+  module * { export * }
+}
