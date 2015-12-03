@@ -10,6 +10,8 @@ KMDDeDupeDictionaries is an iOS Library to track if dictionaries are duplicated 
 
 This libary supports overriding the default storage type (PList) with custom storage such as SQLLite or NSUserDefaults. Simply conform to KMDDDStorageType and set StorageType to be custom on the manager.
 
+Note: This library is an initial version, as such has not been extensively tested yet (nor does it include tests as yet). Library is very much subject to change.
+
 ## Usage
 
 1. Pod install.
